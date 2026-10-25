@@ -1,0 +1,219 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Training Course</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to HTML Training</h1>
+        <p>Learn the basics of building web pages with HTML.</p>
+    </header>
+    <nav aria-label="Main navigation">
+        <a href="#about">About</a> | <a href="#lessons">Lessons</a> | <a href="#media">Media</a> | <a href="#examples">Examples</a> | <a href="#faq">FAQs</a> | <a href="#contact">Contact</a>
+    </nav>
+    <hr>
+    <main>
+        <section id="about">
+            <h2>About the Course</h2>
+            <p>
+                This course introduces <abbr title="HyperText Markup Language">HTML</abbr>,
+                the language used to structure web pages.
+            </p>
+            <p>
+                The course starts on
+                <time datetime="2026-11-02">November 2, 2026</time>.
+            </p>
+            <figure>
+            <picture>
+            <source
+                    media="(min-width: 800px)" rcset="download.jpg">
+                    <img src="download.jpg" alt="HTML training course banner" width="400" height="200">
+                </picture>
+                <figcaption>
+                    Figure 1: An introductory banner for the HTML training course.
+                </figcaption>
+            </figure>
+            <blockquote>
+                Learning HTML is the first step toward understanding how web pages
+                are structured.
+            </blockquote>
+            <p>
+                As the course introduction explains, <q>practice makes progress</q>.
+            </p>
+
+            <p>
+                Reference: <cite>HTML Living Standard</cite>.
+            </p>
+        </section>
+        <hr>
+        <section id="lessons">
+            <h2>Course Lessons</h2>
+            <article>
+                <h3>Lesson 1: HTML Structure</h3>
+                <p>
+                    Learn about headings, paragraphs, links, lists, and the basic
+                    structure of an HTML document.
+                </p>
+            </article>
+            <article>
+                <h3>Lesson 2: Forms and Tables</h3>
+                <p>
+                    Practice creating registration forms, input fields, dropdowns,
+                    and tables.
+                </p>
+            </article>
+            <article>
+                <h3>Lesson 3: Semantic HTML and Media</h3>
+                <p>
+                    Learn to organize content using semantic tags and add audio,
+                    video, images, and embedded pages.
+                </p>
+            </article>
+            <aside>
+                <h3>Learning Tip</h3>
+                <p>
+                    Write the code yourself and test each element in your browser.
+                    Small experiments help you understand HTML.
+                </p>
+            </aside>
+        </section>
+        <hr>
+        <section id="media">
+            <h2>Audio and Video Examples</h2>
+            <article>
+                <h3>Audio Example</h3>
+                <p>Use the audio player to listen to a sample audio file.</p>
+                <audio controls>
+                    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </article>
+            <article>
+                <h3>Video Example</h3>
+                <p>Watch this sample video to learn how video elements work.</p>
+                <video controls width="400">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    <track src="captions.vtt" kind="captions" srclang="en" label="English" default>
+                    Your browser does not support the video element.
+                </video>
+                <p>
+                    Note: The captions will work only when a valid
+                    <code>captions.vtt</code> file is available beside this HTML file.
+                </p>
+            </article>
+            <article>
+                <h3>Embedded Learning Resource</h3>
+                <p>Explore an HTML reference inside this page.</p>
+                <iframe src="https://www.w3schools.com/html/" title="HTML tutorial reference" width="600" height="300">
+                </iframe>
+                <p>
+                    If the embedded page does not load, open
+                    <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener">
+                        the HTML tutorial directly
+                    </a>.
+                </p>
+            </article>
+        </section>
+        <hr>
+        <section id="examples">
+            <h2>HTML Code Examples</h2>
+            <article>
+                <h3>Example 1: A Paragraph</h3>
+                <p>Use the <code>&lt;p&gt;</code> tag to create a paragraph.</p>
+                <pre><code>&lt;p&gt;Hello, world!&lt;/p&gt;
+&lt;h1&gt;My First Heading&lt;/h1&gt;</code></pre>
+            </article>
+            <article>
+                <h3>Example 2: Keyboard Shortcut</h3>
+                <p>
+                    On many Windows applications, press
+                    <kbd>Ctrl</kbd> + <kbd>S</kbd> to save your work.
+                </p>
+            </article>
+            <article>
+                <h3>Example 3: Sample Output</h3>
+                <p>When a program finishes successfully, its output might be:</p>
+                <samp>HTML page loaded successfully.</samp>
+            </article>
+            <article>
+                <h3>Example 4: Embedded Object</h3>
+                <p>
+                    The object element can embed another resource, such as a PDF.
+                    Replace the filename with a real PDF file to test it.
+                </p>
+                <object data="course-guide.pdf" type="application/pdf" width="400" height="250">
+                    <p>
+                        PDF preview unavailable.
+                        <a href="course-guide.pdf">Open the course guide</a>.
+                    </p>
+                </object>
+            </article>
+            <article>
+                <h3>Example 5: Embedded Content</h3>
+                <p>
+                    The embed element can display supported external content,
+                    such as a PDF file.
+                </p>
+                <embed src="course-guide.pdf" type="application/pdf" width="400" height="250">
+            </article>
+            <article>
+                <h3>Example 6: Dialog Example</h3>
+                <p>
+                    The dialog element represents a dialog box. Without JavaScript,
+                    this example is shown as a static, open dialog.
+                </p>
+                <dialog open>
+                    <p>Welcome to the HTML training course!</p>
+                    <p>This dialog is open by default.</p>
+                </dialog>
+            </article>
+        </section>
+        <hr>
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <details>
+                <summary>What is HTML?</summary>
+                <p>
+                    HTML stands for HyperText Markup Language. It structures
+                    content on web pages.
+                </p>
+            </details>
+            <details>
+                <summary>Do I need programming experience?</summary>
+                <p>
+                    No. This course begins with basic HTML tags and gradually
+                    introduces more concepts.
+                </p>
+            </details>
+            <details>
+                <summary>Can I learn HTML without CSS or JavaScript?</summary>
+                <p>
+                    Yes. You can learn document structure, links, forms, tables,
+                    semantic elements, and media using HTML alone.
+                </p>
+            </details>
+        </section>
+    </main>
+    <hr>
+    <footer id="contact">
+        <h2>Contact the Course Team</h2>
+        <address>
+            HTML Training Team<br>
+            Email:
+            <a href="mailto:training@example.com">training@example.com</a><br>
+            Website:
+            <a href="https://www.w3.org/" target="_blank" rel="noopener">
+                World Wide Web Consortium
+            </a>
+        </address>
+        <p>
+            Course information last updated:
+            <time datetime="2026-10-25">October 25, 2026</time>.
+        </p>
+        <p><small>&copy; 2026 HTML Training Course.</small></p>
+    </footer>
+</body>
+</html>
